@@ -1,0 +1,13 @@
+/* FONT MONTSERAT */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hamburger-active {
+}
+
+.navbar-fixed {
+  @apply fixed z-40 bg-white bg-opacity-70 backdrop-blur-sm;
+}
