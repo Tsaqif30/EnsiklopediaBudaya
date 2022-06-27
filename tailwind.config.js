@@ -9,6 +9,10 @@ module.exports = {
     extend: {
       fontFamily: {
         Montserrat: ['Montserrat'],
+        Jawa: ['Playfair Display'],
+      },
+      colors: {
+        Ijo: '#007367',
       },
     },
   },

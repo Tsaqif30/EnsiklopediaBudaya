@@ -2,6 +2,7 @@
 const hamburger = document.querySelector('#hamburger');
 //navMenu
 const navMenu = document.querySelector('#nav-menu');
+const navMenu = document.querySelector('#nav-menu');
 
 //navbarfixed
 window.onscroll = function () {
