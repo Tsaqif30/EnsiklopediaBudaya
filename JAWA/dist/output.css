@@ -751,8 +751,8 @@ video {
   display: none;
 }
 
-.h-6{
-  height: 1.5rem;
+.h-7{
+  height: 1.75rem;
 }
 
 .h-10{
@@ -783,8 +783,8 @@ video {
   width: 100%;
 }
 
-.w-6{
-  width: 1.5rem;
+.w-7{
+  width: 1.75rem;
 }
 
 .w-48{
@@ -1319,9 +1319,6 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hamburger-active {
-}
-
 .navbar-fixed{
   position: fixed;
   z-index: 40;
@@ -1660,6 +1657,16 @@ video {
     line-height: 1;
   }
 
+  .lg\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .lg\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .lg\:text-xl{
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -1668,16 +1675,6 @@ video {
   .lg\:text-7xl{
     font-size: 4.5rem;
     line-height: 1;
-  }
-
-  .lg\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .lg\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 
   .lg\:opacity-100{

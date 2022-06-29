@@ -1,5 +1,7 @@
 // hamburger
 const hamburger = document.querySelector('#hamburger');
+const kotak = document.querySelector('#kotak');
+const x = document.querySelector('#x');
 //navMenu
 const navMenu = document.querySelector('#nav-menu');
 
@@ -17,7 +19,8 @@ window.onscroll = function () {
 };
 
 hamburger.addEventListener('click', function () {
-  hamburger.classList.toggle('hamburger-active');
+  kotak.classList.toggle('hidden');
+  x.classList.toggle('hidden');
   navMenu.classList.toggle('hidden');
 });
 
