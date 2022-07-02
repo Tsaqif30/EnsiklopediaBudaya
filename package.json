@@ -8,7 +8,8 @@
     "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "jawa": "npx tailwindcss -i ./src/input.css -o ./JAWA/dist/output.css --watch",
     "melayu": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/dist/output.css --watch",
-    "minang": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/minang/output.css --watch"
+    "minang": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/minang/output.css --watch",
+    "rejang": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/rejang/output.css --watch"
   },
   "keywords": [],
   "author": "",
