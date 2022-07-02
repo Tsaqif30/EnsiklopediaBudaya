@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "jawa": "npx tailwindcss -i ./src/input.css -o ./JAWA/dist/output.css --watch",
-    "sumatera": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/dist/output.css --watch"
+    "melayu": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/dist/output.css --watch",
+    "minang": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/minang/output.css --watch"
   },
   "keywords": [],
   "author": "",
