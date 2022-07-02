@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['index.html', './JAWA/sukuJawa.html'],
+  content: ['index.html', './JAWA/*.{html,js}', './SUMATERA/*.{html,js}'],
   theme: {
     container: {
       center: true,
@@ -13,6 +13,7 @@ module.exports = {
       },
       colors: {
         Ijo: '#007367',
+        Sumatera: '#1D1B16',
       },
     },
   },
