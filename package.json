@@ -9,7 +9,10 @@
     "jawa": "npx tailwindcss -i ./src/input.css -o ./JAWA/dist/output.css --watch",
     "melayu": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/dist/output.css --watch",
     "minang": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/minang/output.css --watch",
-    "rejang": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/rejang/output.css --watch"
+    "rejang": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/rejang/output.css --watch",
+    "ogan": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/ogan/output.css --watch",
+    "palembang": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/palembang/output.css --watch",
+    "lampung": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/lampung/output.css --watch"
   },
   "keywords": [],
   "author": "",
