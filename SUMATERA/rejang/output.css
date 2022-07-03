@@ -747,16 +747,20 @@ video {
   margin-top: 4rem;
 }
 
+.mt-\[300px\]{
+  margin-top: 300px;
+}
+
+.mt-\[200px\]{
+  margin-top: 200px;
+}
+
 .mt-\[400px\]{
   margin-top: 400px;
 }
 
-.mt-\[360px\]{
-  margin-top: 360px;
-}
-
-.mt-\[300px\]{
-  margin-top: 300px;
+.mt-\[500px\]{
+  margin-top: 500px;
 }
 
 .block{
