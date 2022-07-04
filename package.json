@@ -16,7 +16,8 @@
     "aceh": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/aceh/output.css --watch",
     "batak": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/batak/output.css --watch",
     "nias": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/nias/output.css --watch",
-    "bangka": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/bangka/output.css --watch"
+    "bangka": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/bangka/output.css --watch",
+    "toraja": "npx tailwindcss -i ./src/input.css -o ./SULAWESI/toraja/output.css --watch"
   },
   "keywords": [],
   "author": "",
