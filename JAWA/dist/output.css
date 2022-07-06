@@ -767,6 +767,10 @@ video {
   margin-top: 500px;
 }
 
+.mt-40{
+  margin-top: 10rem;
+}
+
 .block{
   display: block;
 }
@@ -1039,6 +1043,11 @@ video {
   background-color: rgb(255 231 141 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#D5FFBB\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(213 255 187 / var(--tw-bg-opacity));
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -1177,10 +1186,6 @@ video {
 
 .text-center{
   text-align: center;
-}
-
-.text-justify{
-  text-align: justify;
 }
 
 .font-Montserrat{
@@ -1484,6 +1489,10 @@ video {
     width: 100%;
   }
 
+  .sm\:w-1\/2{
+    width: 50%;
+  }
+
   .sm\:max-w-xl{
     max-width: 36rem;
   }
@@ -1522,6 +1531,10 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:right-10{
+    right: 2.5rem;
+  }
+
   .md\:mt-16{
     margin-top: 4rem;
   }
@@ -1532,6 +1545,10 @@ video {
 
   .md\:mt-40{
     margin-top: 10rem;
+  }
+
+  .md\:mt-72{
+    margin-top: 18rem;
   }
 
   .md\:h-96{
@@ -1546,8 +1563,12 @@ video {
     width: 40%;
   }
 
-  .md\:w-20{
-    width: 5rem;
+  .md\:w-3\/5{
+    width: 60%;
+  }
+
+  .md\:w-1\/3{
+    width: 33.333333%;
   }
 
   .md\:py-4{
@@ -1649,12 +1670,12 @@ video {
     margin-bottom: 2.5rem;
   }
 
-  .lg\:mr-10{
-    margin-right: 2.5rem;
-  }
-
   .lg\:ml-10{
     margin-left: 2.5rem;
+  }
+
+  .lg\:mr-10{
+    margin-right: 2.5rem;
   }
 
   .lg\:block{
@@ -1770,10 +1791,6 @@ video {
     text-align: right;
   }
 
-  .lg\:text-justify{
-    text-align: justify;
-  }
-
   .lg\:text-start{
     text-align: start;
   }
@@ -1842,6 +1859,10 @@ video {
 @media (min-width: 1280px){
   .xl\:mt-28{
     margin-top: 7rem;
+  }
+
+  .xl\:mt-24{
+    margin-top: 6rem;
   }
 
   .xl\:inline{
