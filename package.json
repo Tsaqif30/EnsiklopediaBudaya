@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
     "jawa": "npx tailwindcss -i ./src/input.css -o ./JAWA/dist/output.css --watch",
+    "awal": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/awal/output.css --watch",
     "melayu": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/dist/output.css --watch",
     "minang": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/minang/output.css --watch",
     "rejang": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/rejang/output.css --watch",
@@ -17,7 +18,8 @@
     "batak": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/batak/output.css --watch",
     "nias": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/nias/output.css --watch",
     "bangka": "npx tailwindcss -i ./src/input.css -o ./SUMATERA/bangka/output.css --watch",
-    "toraja": "npx tailwindcss -i ./src/input.css -o ./SULAWESI/toraja/output.css --watch"
+    "toraja": "npx tailwindcss -i ./src/input.css -o ./SULAWESI/toraja/output.css --watch",
+    "dayak": "npx tailwindcss -i ./src/input.css -o ./KALIMANTAN/dayak/output.css --watch"
   },
   "keywords": [],
   "author": "",

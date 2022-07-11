@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ['index.html', './JAWA/*.{html,js}', './SUMATERA/*.{html,js}', './SULAWESI/*.{html,js}'],
+  content: ['index.html', './JAWA/*.{html,js}', './SUMATERA/*.{html,js}', './SULAWESI/*.{html,js}', './KALIMANTAN/*.{html,js}'],
   theme: {
     container: {
       center: true,
@@ -14,6 +14,7 @@ module.exports = {
       colors: {
         Ijo: '#007367',
         Sumatera: '#1D1B16',
+        Merah: '#E02401',
       },
     },
   },
